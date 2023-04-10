@@ -17,7 +17,7 @@ Object.defineProperty(user, 'id', {
 // //     'id': {
 // //         writable: false,
 // //         configurable: false,
-// //     }});
+// //     }}); 
 
 console.log(Object.getOwnPropertyDescriptor(user, 'name'));
 console.log(Object.getOwnPropertyDescriptor(user, 'age'));
